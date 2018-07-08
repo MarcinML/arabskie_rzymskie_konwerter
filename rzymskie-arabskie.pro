@@ -10,7 +10,9 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES += main.cpp \
-    romanian.cpp
+    romanian.cpp \
+    romaniantoarabic.cpp
 
 HEADERS += \
-    romanian.h
+    romanian.h \
+    romaniantoarabic.h

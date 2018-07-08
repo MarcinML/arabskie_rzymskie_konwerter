@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "romanian.h"
+#include "romaniantoarabic.h"
 
 int main()
 {
@@ -15,9 +16,14 @@ int main()
     std::cout<<"Enter the Romanian number and I will change it to Arabic: "<<std::endl;
     std::string romanianNumber;
     std::cin>>romanianNumber;
-    R.enterRomanianNumber(romanianNumber);
-    int result2 = R.showRomanianToArabic();
-    std::cout<<"Liczba po konwersji to :"<< result2<<std::endl;
+    romanianToArabic RR;
+    std::string test{"test"};
+    std::string test2{"test"};
+    if(test!=test2) std::cout<<"nieprawda";
+
+
+
+    std::cout<<"Liczba po konwersji to :"<<RR.convertoArabic(romanianNumber)<<std::endl;
 
 
 

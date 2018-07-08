@@ -7,9 +7,9 @@
 class Romanian
 {
     int enteredNumber;
-    std::string enteredRomanianNumber;
+
     std::string result;
-    int intResult;
+
     void convert();
     void convertToArabic();
 
